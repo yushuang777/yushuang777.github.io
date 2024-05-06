@@ -1,0 +1,43 @@
+
+.analysis-content{
+    color: #ffffff;
+    font-size: 12px;
+    background: #080e1a;
+    margin: 12px;
+}
+.analysis-wrap{
+    padding: 12px;
+}
+.analysis-tabList-box{
+    display: flex;
+    margin-top: 12px;
+    padding: 12px;
+}
+.analysis-select-box{
+    display: flex;
+}
+.analysis-select-item{
+    display: flex;
+    padding: 0 12px;
+    align-items: center;
+}
+.analysis-tabList-item{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 5px 4px;
+    background: transparent;
+}
+.analysis-tabList-item-active{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 5px 4px;
+    background: dodgerblue;
+}

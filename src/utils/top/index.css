@@ -1,0 +1,20 @@
+
+.top-content{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+    background: url('../../static/image/top-bg.png') no-repeat 0 0;
+    .top-content-select{
+        margin-left: 20px;
+    }
+}
+
+.top-content-back{
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 12px;
+    color: #ffffff;
+    font-weight: 600;
+}

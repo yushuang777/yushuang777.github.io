@@ -1,0 +1,69 @@
+.diagram-content{
+    height: 100%;
+}
+span {
+    color: #888888;
+}
+.diagram-company-title{
+    font-size: 14px;
+}
+.diagram-topContent{
+    font-size: 11px;
+    margin: 12px 0;
+    background: #242834;
+    color: #ffffff;
+    padding: 12px;
+
+
+    .diagram-company-frName{
+        margin-top: 6px;
+        align-items: center;
+        display: flex;
+    }
+    .diagram-company-content{
+        display: flex;
+        .diagram-company-wrap{
+            margin-top: 6px;
+            align-items: center;
+            display: flex;
+            padding: 0 8px;
+            border-right: 1px solid #708090;
+            &:first-child{
+                padding: 0 8px 0 0;
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+    }
+    .diagram-company-introduce{
+        margin-top: 6px;
+        align-items: center;
+        display: flex;
+    }
+}
+.diagram-bottomContent{
+    font-size: 11px;
+    margin: 12px 0;
+    background: #242834;
+    color: #ffffff;
+    padding: 12px;
+    .diagram-bottomContent-table {
+        margin-top: 12px;
+        justify-content: center;
+        display: flex;
+        & table, & th, & td {
+            background: #343c4c;
+            width: 950px;
+            border: 1px solid #708090; /* 设置表格线为白色 */
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+            color: white; /* 设置文本颜色为白色 */
+        }
+        .td-bg{
+            background: #232935;
+        }
+    }
+}
+

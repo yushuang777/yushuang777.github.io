@@ -1,0 +1,109 @@
+
+.run-title{
+    font-size: 10px;
+    margin:6px 0 0 6px;
+    &:before{
+        height: 2px;
+        margin-right: 6px;
+        padding-right: 4px;
+        background: orange;
+        content: "";
+    }
+    & span{
+        color: orange;
+        font-size: 12px;
+        margin-right: 6px;
+    }
+}
+.run-content{
+    background: black;
+    font-size: 12px;
+    color: #ffffff;
+    display: flex;
+}
+.run-left-top{
+    display: flex;
+    align-items: center;
+    height: 26px;
+    margin-bottom: 6px;
+}
+.run-back{
+    font-size: 10px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 5px 4px;
+    background: dodgerblue;
+}
+.run-left-content{
+    padding: 12px;
+    margin:12px 0 12px 12px;
+    width: 25%;
+    background: #232935;
+}
+.run-industry-box{
+    margin: 12px 0;
+    display: flex;
+    padding: 0 12px;
+    align-items: center;
+}
+.run-time-box{
+    margin: 16px 0;
+    display: flex;
+}
+.run-time-item{
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #343c4c;
+}
+.run-time-item-active{
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    background: black;
+    border: 1px solid #343c4c;
+}
+
+.run-index-box{
+    margin: 16px 0;
+    display: flex;
+}
+.run-index-item{
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #343c4c;
+}
+.run-index-item-active{
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    background: black;
+    border: 1px solid #343c4c;
+}
+.run-right-content{
+    padding: 12px;
+    min-height: 630px;
+    position: relative;
+    width: 75%;
+    max-height: 660px;
+    margin: 12px 6px 12px 12px;
+    overflow-y: scroll;
+    background: #232935;
+}

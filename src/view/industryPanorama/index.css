@@ -1,0 +1,77 @@
+
+.panorama-content{
+    background: #0e121d;
+    margin-left: 390px;
+    margin-right: 12px;
+    padding: 2px 12px;
+    margin-top: 12px;
+;
+}
+.ant-drawer{
+    margin-top: 64px;
+}
+.drawer-content{
+    color: white;
+    font-size: 12px;
+}
+.panorama-company-item{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 12px 0;
+    color: #ffffff;
+    padding: 8px 6px;
+}
+.panorama-company-item-active{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 8px 6px;
+    cursor: pointer;
+    margin: 12px 0;
+    color: #ffffff;
+    background: #0e121d;
+}
+.panorama-company-box{
+    display: flex;
+    align-items: center;
+}
+.company-title{
+    padding-left: 6px;
+}
+
+.panorama-menu-box{
+    margin-top: 12px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.panorama-menu-item{
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    &:first-child{
+        margin: 0;
+    }
+}
+.panorama-menu-item-active{
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 5px 4px;
+    display: flex;
+    align-items: center;
+    background: dodgerblue;
+    &:first-child{
+        margin: 0;
+    }
+}

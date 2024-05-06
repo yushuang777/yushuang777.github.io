@@ -1,0 +1,91 @@
+.welcome{
+    display: flex;
+    align-items: center;
+    margin: 40px 220px;
+    color: #ffffff;
+    font-size: 12px;
+    .welcome-title{
+        margin-left: 14px;
+    }
+    .welcome-title-s{
+        margin-top: 5px;
+        font-size: 24px;
+    }
+}
+.content{
+    margin: 0 150px;
+    border: 1px solid rgba(119,136,153,0.3);
+    box-sizing: border-box;
+    padding: 0 72px 145px;
+    background-color: #242834;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,.2);
+    .menu-card-filter{
+        display: flex;
+        color: #ffffff;
+        font-size: 12px;
+        margin: 20px 0;
+        align-items: center;
+
+    }
+    .menu-card-filter-box{
+        display: flex;
+
+    }
+    .menu-card-item{
+        margin-left: 8px;
+        border-radius: 2px;
+        background: #0e121d;
+        padding: 4px 6px;
+        cursor: pointer;
+    }
+    .menu-card-item-active{
+        cursor: pointer;
+        margin-left: 8px;
+        border-radius: 2px;
+        padding: 4px 6px;
+        display: flex;
+        align-items: center;
+        background: dodgerblue;
+    }
+    .menu-card-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .menu-cards{
+        transition: .3s;
+        width: 236px;
+        height: 160px;
+        margin: 0 20px 20px 0;
+        border-radius: 2px;
+        background-color: #0e121d;
+        &:hover{
+            border-radius: 2px;
+            background: rgba(36,40,52,0.3);
+            border: 1px solid rgba(119,136,153,0.7);
+
+        }
+        border:1px solid hsla(0,0%,100%,0)
+    }
+    .menu-card-mask{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 160px;
+        padding: 10px 10px 15px;
+        box-sizing: border-box;
+    }
+    .menu-card-mask-name{
+        text-decoration: none;
+        margin-top: 2px;
+        font-size: 12px;
+        color: white;
+        width: 175px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        word-break: break-all;
+    }
+}

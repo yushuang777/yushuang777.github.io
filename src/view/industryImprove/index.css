@@ -1,0 +1,68 @@
+.ant-select-selector{
+    background: white !important;
+}
+.improve-content{
+    background: rgba(9,14,27);
+    padding-top: 30px;
+    min-height: 630px;
+    .improve-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.improve-companyList{
+    margin: 40px auto;
+    width: 60%;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #ffffff;
+        .improve-company-item{
+            padding: 12px;
+            background: rgba(26,32,42);
+            cursor: pointer;
+            border: 1px solid #0e121d;
+            margin-top: 10px;
+            &:hover{
+                background: #0b1326;
+            }
+        }
+}
+.improve-company-title{
+    color: dodgerblue;
+    font-weight:600;
+    font-size: 13px;
+}
+.improve-company-tab{
+    margin-top: 12px;
+}
+.improve-company-type{
+    margin-left: 2px;
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: orange;
+    background: rgba(255,215,0,0.2);
+}
+.improve-company-content{
+    display: flex;
+    margin-top: 6px;
+    .improve-company-wrap{
+        align-items: center;
+        display: flex;
+        padding: 0 8px;
+        border-right: 1px solid #708090;
+        &:first-child{
+            padding: 0 8px 0 0;
+        }
+        &:last-child{
+            border:none;
+        }
+    }
+}
+.improve-company-address{
+    margin-top: 6px;
+}
+.improve-empty{
+    margin:0 auto;
+}

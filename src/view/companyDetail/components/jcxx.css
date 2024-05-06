@@ -1,0 +1,60 @@
+.jcxx-title-wrap{
+    padding: 12px 0;
+    border-bottom: 1px solid #0e121d;
+}
+.jcxx-title{
+    font-size: 12px;
+    font-weight: 600;
+    &:before{
+        height: 2px;
+        margin-right: 6px;
+        padding-right: 4px;
+        background: #3699fe;
+        content: "";
+    }
+}
+.jcxx-corporate{
+    padding: 8px 6px;
+    background: #242834;;
+}
+.jcxx-chains{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin: 12px 0;
+}
+.jcxx-chains-title{
+    margin-top: 6px;
+    margin-left: 12px;
+}
+.jcxx-chains-item{
+    margin-top: 6px;
+    white-space: nowrap;
+    padding: 6px ;
+    background: #888888;
+    margin-left: 12px;
+    border-radius: 2px;
+    & first-child {
+        margin: 0;
+    }
+}
+
+.jcxx-table {
+    font-size: 10px;
+    margin-top: 12px;
+    justify-content: center;
+    display: flex;
+    & table, & th, & td {
+        background: #343c4c;
+        width: 950px;
+        border: 1px solid #708090; /* 设置表格线为白色 */
+        border-collapse: collapse;
+        padding: 8px;
+        text-align: center;
+        color: white; /* 设置文本颜色为白色 */
+    }
+    .jcxx-bg{
+        background: #232935;
+    }
+}

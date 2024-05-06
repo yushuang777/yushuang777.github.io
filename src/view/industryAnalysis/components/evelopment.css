@@ -1,0 +1,119 @@
+
+.evelopment-title{
+    margin:6px 0 0 6px;
+    font-size: 12px;
+    font-weight: 600;
+    &:before{
+        height: 2px;
+        margin-right: 6px;
+        padding-right: 4px;
+        background: orange;
+        content: "";
+    }
+}
+.evelopment-title-introduce{
+    font-size: 10px;
+    color: #888888;
+    margin-left: 13px;
+    margin-top: 6px;
+}
+.evelopment-card-box{
+    margin: 12px;
+    display: flex;
+}
+.evelopment-card-box-wrap{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.evelopment-card-box-content{
+
+}
+.evelopment-card-box-number{
+    margin: 12px 0;
+    font-size: 36px;
+    font-weight: 600;
+    color: #87CEFA;
+}
+.evelopment-card-box-bottom{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    & span{
+        color: #888888;
+        margin-right: 6px;
+    }
+}
+.rank-img{
+    height: 24px;
+}
+.evelopment-img{
+    right: 0;
+    bottom: 0;
+    width: 110px;
+    height: 80px;
+    position: absolute;
+}
+.evelopment-card-box-left{
+    position: relative;
+    border-radius: 4px;
+    padding: 12px;
+    width: 300px;
+    background: linear-gradient(to left, #2d3e45, #1c2233);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.evelopment-card-box-right{
+    width: 750px;
+    border-radius: 4px;
+    display: flex;
+}
+.evelopment-card-box-right-item{
+    width: 33%;
+    border-radius: 4px;
+    background: #272f41;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 12px;
+}
+.right-item-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+.right-item-name{
+    font-size: 10px;
+}
+.right-item-value{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.evelopment-table{
+    margin-top: 36px;
+    & table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    & th, & td {
+        border: 1px solid rgba(61, 68, 88);
+        padding: 8px;
+    }
+
+    & th {
+        text-align: left; /* 标题居左对齐 */
+        background-color: #0b1326;
+        border: 1px solid rgba(61, 68, 88);
+    }
+
+    & td {
+        border-top: 1px solid #0e121d;
+    }
+
+    & tr:last-child & td {
+        border-bottom: 1px solid #0e121d;
+    }
+}
+
+.corner-header {
+    background-color: #f0f0f0;
+}

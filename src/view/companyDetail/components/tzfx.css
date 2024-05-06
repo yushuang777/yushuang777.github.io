@@ -1,0 +1,103 @@
+.tzfx-title-wrap{
+    padding: 12px 0;
+}
+.tzfx-title{
+    font-size: 12px;
+    font-weight: 600;
+    &:before{
+        height: 2px;
+        margin-right: 6px;
+        padding-right: 4px;
+        background: #3699fe;
+        content: "";
+    }
+}
+.tzfx-warn{
+    padding: 8px 6px;
+    background: #242834;;
+}
+.tzfx-warn-content{
+    padding: 12px;
+    font-size: 10px;
+    background: rgba(58,47,53);
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,.2);
+}
+.tzfx-orange-text{
+    color: rgba(211,116,86);
+}
+.tzfx-warn-span{
+    margin-left: 3px;
+}
+.tzfx-echarts-box{
+    display: flex;
+}
+.tzfx-echarts-item{
+    margin-top: 24px;
+}
+.tzfx-title-orange{
+    font-size: 12px;
+    font-weight: 600;
+    &:before{
+        height: 2px;
+        margin-right: 6px;
+        padding-right: 4px;
+        background: orange;
+        content: "";
+    }
+}
+.tzfx-scale-box{
+    display: flex;
+}
+.tzfx-scale-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding: 12px 12px 20px 8px;
+    font-size: 8px;
+    background: #2b313f;
+    margin-left: 12px;
+}
+.tzfx-scale-item-introduce{
+    font-size: 10px;
+    margin-top: 4px;
+}
+.tzfx-scale-number{
+    font-size: 20px;
+}
+
+.tzfx-table{
+    font-size: 10px;
+    margin-top: 12px;
+    border: 1px solid #0e121d;
+    border-radius: 5px;
+    & table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    & th, & td {
+        padding: 8px;
+    }
+
+    & th {
+        text-align: left;
+        background-color: #0b1326;
+    }
+
+    & td {
+        border-top: 1px solid #0e121d;
+    }
+
+    & tr:last-child & td {
+        border-bottom: 1px solid #0e121d;
+    }
+
+    .showList-span{
+        margin-left: 4px;
+        & first-child {
+            margin: 0;
+        }
+    }
+}
+

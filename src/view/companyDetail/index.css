@@ -1,0 +1,71 @@
+.detail-content{
+    color: white;
+    padding: 10px;
+    background: rgba(9,14,27);
+    .detail-back{
+        font-size: 10px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        border-radius: 2px;
+        padding: 5px 4px;
+        background: dodgerblue;
+    }
+    .detail-company{
+        padding: 12px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .detail-company-top{
+        padding: 12px;
+        background: #242834;
+        font-size: 12px;
+        border-bottom: 1px solid #0e121d;
+    }
+    .detail-company-name{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .detail-company-content{
+        display: flex;
+        margin-top: 12px;
+        .detail-company-wrap{
+            align-items: center;
+            display: flex;
+            padding: 0 8px;
+            border-right: 1px solid #708090;
+            &:first-child{
+                padding: 0 8px 0 0;
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+    }
+    .detail-company-introduce{
+        margin-top: 12px;
+        align-items: center;
+        display: flex;
+    }
+    .detail-tab-box{
+        font-size: 12px;
+        background: #242834;
+        display: flex;
+        .detail-tab-item-active{
+            padding: 12px;
+            background: rgba(9,14,27);
+            cursor: pointer;
+            border-bottom: 2px solid #87CEFA;
+        }
+        .detail-tab-item{
+            padding: 12px;
+            cursor: pointer;
+            background: #242834;
+        }
+    }
+    .detail-tab-content{
+        margin: 12px 0;
+    }
+}

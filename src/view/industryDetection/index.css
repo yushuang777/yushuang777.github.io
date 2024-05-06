@@ -1,0 +1,186 @@
+.detection-content{
+    height: 630px;
+    max-height: 630px;
+    margin-top: 18px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    .left-content{
+        color: #ffffff;
+        border: 1px solid rgba(119,136,153,0.3);
+        margin-right: 10px;
+        width: 60%;
+        margin-left: 10px;
+        .echartsList{
+            padding: 10px;
+        }
+    }
+    .right-content {
+        padding: 0 10px;
+        margin-right: 10px;
+        width: 40%;
+        border: 1px solid rgba(119,136,153,0.3);
+        box-sizing: border-box;
+        background-color: #242834;
+        box-shadow: 0 6px 20px 0 rgba(0,0,0,.2);
+    }
+
+    .menu-card-filter-box {
+        display: flex;
+        color: #ffffff;
+        font-size: 12px;
+        margin: 20px 0;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-card-item,
+    .menu-card-item-active {
+        flex: 0 0 25%; /* 设置为四列，每列占25%的宽度 */
+        display: flex;
+        border-radius: 2px;
+        background: #0e121d;
+        padding: 4px ;
+        cursor: pointer;
+        border: 1px solid #708090;
+        margin: 5px; /* 添加一些间距 */
+    }
+
+    .menu-card-item-active {
+        border: 1px solid #87CEFA;
+        padding: 4px ;
+    }
+
+    .name{
+        color: dodgerblue;
+        font-weight:600;
+        padding-right: 12px;
+        border-right: 1px solid #708090;
+    }
+    & p {
+        padding: 2px;
+        margin: 0; /* 去除段落的默认边距 */
+    }
+    .number{
+        padding: 0 6px;
+        align-items: center;
+        display: flex;
+    }
+    .menu-card-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .menu-cards{
+        transition: .3s;
+        width: 236px;
+        height: 160px;
+        margin: 0 20px 20px 0;
+        border-radius: 2px;
+        background-color: #0e121d;
+        &:hover{
+            border-radius: 2px;
+            background: rgba(36,40,52,0.3);
+            border: 1px solid rgba(119,136,153,0.7);
+
+        }
+        border:1px solid hsla(0,0%,100%,0)
+    }
+    .menu-card-mask{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 160px;
+        padding: 10px 10px 15px;
+        box-sizing: border-box;
+    }
+    .menu-card-mask-name{
+        margin-top: 2px;
+        font-size: 12px;
+        color: white;
+        width: 175px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        word-break: break-all;
+    }
+    .companyList{
+        width: 100%;
+        margin: 16px 5px;
+        box-sizing: border-box;
+        background-color: #242834;
+        font-size: 10px;
+        color: #ffffff;
+        box-shadow: 0 6px 20px 0 rgba(0,0,0,.2);
+        .company-box{
+            padding-right: 6px;
+            max-height: 510px;
+            overflow-y: scroll;
+            .company-item{
+                cursor: pointer;
+                padding: 8px 10px;
+                border: 1px solid #708090;
+                margin-top: 10px;
+                &:first-child{
+                    margin: 0;
+                }
+            }
+            .company-item-active{
+                cursor: pointer;
+                padding: 8px 10px;
+                border: 1px solid #87CEFA;
+                margin-top: 10px;
+                &:first-child{
+                    margin: 0;
+                }
+            }
+            .company-title{
+                color: dodgerblue;
+                font-weight:600;
+                font-size: 13px;
+            }
+            .company-tab{
+                margin-top: 12px;
+            }
+            .company-type{
+                margin-left: 2px;
+                border-radius: 2px;
+                padding: 2px 4px;
+                color: orange;
+                background: rgba(255,215,0,0.2);
+            }
+            .company-content{
+                display: flex;
+                margin-top: 6px;
+                .company-wrap{
+                    align-items: center;
+                    display: flex;
+                    padding: 0 8px;
+                    border-right: 1px solid #708090;
+                    &:first-child{
+                        padding: 0 8px 0 0;
+                    }
+                    &:last-child{
+                        border:none;
+                    }
+                }
+            }
+            .company-address{
+                margin-top: 6px;
+            }
+            .ztjc{
+                &:hover{
+                    color: dodgerblue;
+                }
+            }
+            .yxjc{
+                margin-top: 12px;
+                &:hover{
+                    color: dodgerblue;
+                }
+            }
+        }
+    }
+}

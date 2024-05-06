@@ -1,0 +1,99 @@
+.risk-content{
+  position: relative;
+}
+.risk-title{
+  margin:6px 0 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  &:before{
+    height: 2px;
+    margin-right: 6px;
+    padding-right: 4px;
+    background: orange;
+    content: "";
+  }
+}
+.risk-left-content{
+  z-index: 10;
+  padding: 6px;
+  background-color: rgba(35,41,53,0.9);
+  position: absolute;
+  color: #ffffff;
+  border: 1px solid rgba(119,136,153,0.3);
+  width: 25%;
+  margin: 12px;
+  min-height: 500px;
+}
+.area-box{
+  display: flex;
+  align-items: center;
+  margin:16px 0;
+}
+.area-item{
+  margin-left: 12px;
+}
+.area-item-title{
+  margin-bottom: 6px;
+  color: #888888;
+  font-size: 10px;
+}
+.area-item-total{
+  color: dodgerblue;
+  font-size: 16px;
+  font-weight: 600;
+}
+.area-item-number{
+  color: orange;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+html,body,#root{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.map {
+  width: 100%;
+  height: 550px;
+  padding: 0;
+  margin: 0;
+}
+
+.city-list-container{
+  margin-top: 12px;
+  border: 1px solid #0e121d;
+  border-radius: 5px;
+  & table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  & th, & td {
+    padding: 8px;
+  }
+
+  & th {
+    text-align: left; /* 标题居左对齐 */
+    background-color: #0b1326;
+  }
+
+  & td {
+    border-top: 1px solid #0e121d;
+  }
+
+  & tr:last-child & td {
+    border-bottom: 1px solid #0e121d;
+  }
+
+  .showList-span{
+    margin-left: 4px;
+    & first-child {
+      margin: 0;
+    }
+  }
+}
+
+

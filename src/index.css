@@ -1,0 +1,27 @@
+.echartsList{
+    overflow-y: scroll;
+    max-height: 560px;
+    margin-right: 5px;
+}
+.echartsList{
+    margin-top: 16px;
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 5px; /* 滚动条宽度 */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+    background: transparent; /* 轨道背景色 */
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    background: #888; /* 滑块颜色 */
+}
+
+/* 滚动条边缘 */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* 鼠标悬停时的滑块颜色 */
+}

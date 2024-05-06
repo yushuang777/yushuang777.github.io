@@ -1,0 +1,65 @@
+.select-wrapper {
+    position: relative;
+    min-width: 200px; /* 设置下拉框的最小宽度 */
+}
+
+.select-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px; /* 调整箭头距离下拉框内容的右边距离 */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.select-wrapper.open::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+.selected-option {
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #222;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.options.open {
+    z-index: 999;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.option {
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.option:hover,
+.option.selected {
+    background-color: transparent;
+}
+
+
